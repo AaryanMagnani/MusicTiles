@@ -13,6 +13,6 @@ must have index between i + 1 to 7, including i + 1 and 7.
 If the last played note has an index 7, the next note can be picked from any of the 0 to 7
 indices.
 
-Use of HTML, CSS and JavaScript languages.
+Use of HTML, CSS and JavaScript.
 
 Contributors: Aaryan Magnani, Neelay Yadav
