@@ -38,7 +38,8 @@ max-width: 100%;
   padding: 15%;
   display: flex;
   align-items: center;
-margin:  5%;
+  margin:  5%;
+  margin-top: none;
   justify-content:center ;
 }
 
@@ -46,6 +47,9 @@ margin:  5%;
   height: 50px;
   width: 100%;
   max-width: 650px;
+  position: fixed;
+  top: 25%;
+  left: 425px;
   background: transparent;
   display: flex;
   align-items: center;
@@ -150,4 +154,33 @@ margin:  5%;
   0% {
     box-shadow: 0 0 0 0 #fff;
   }
+}
+
+#myTable{
+  background-color: rgb(255, 140, 228);
+  color: transparent;
+  border-collapse: collapse;
+  table-layout: fixed;
+  box-sizing: border-box;
+  position: fixed;
+  left: 50%;
+  bottom: 25%;
+  
+}
+tr{
+  border: 1px solid black;
+  
+}
+.tile{
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid black;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+.tile:hover {
+  transition: 0.6s ease-in-out;
+  background-color: red;
 }
