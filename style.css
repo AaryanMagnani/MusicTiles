@@ -1,3 +1,7 @@
+
+
+
+
 .title-image {
 object-fit: cover;
 background-size: cover;
@@ -19,7 +23,7 @@ font-weight: bold;
 
 body {
 
-
+background-image: url("music photo.jpg");
 object-fit: cover;
 background-size: cover;
 background-repeat: no-repeat;
@@ -89,7 +93,7 @@ background-color: black;
 #input-btn {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: rgb(12, 24, 93);
+  background-color: black;
   background-image: none;
   color: #fff;
   cursor: pointer;
@@ -153,7 +157,7 @@ background-color: black;
 }
 
 #myTable{
-  background-color:blue;
+
   color: transparent;
   border-collapse: collapse;
 
@@ -165,24 +169,23 @@ background-color: black;
  align-items: center;
 margin-bottom: 90px;
 padding-bottom: 90px;
- border: 2px solid black;
+
  }
 }
 tr{
-  border: 1px solid black;
+
 
 }
 .tile{
   width: 100px;
   height: 80px;
   padding: 30px;
-  margin: 1px;
-  border: 1px solid white;
+  border: 1px solid black;
   display: inline-block;
   cursor: pointer;
   transition: 0.6s ease-in-out;
+  border-color: white;
   margin: 1px;
-  transition: 0.6s ease-in-out;
 }
 .tile:hover {
   transition: 0.6s ease-in-out;

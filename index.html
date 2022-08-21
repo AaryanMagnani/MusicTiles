@@ -11,25 +11,17 @@
   <script src="https://kit.fontawesome.com/f56e80d19e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-   <link rel="icon" type="image/x-icon" href="/favicon.png">
+
 </head>
 
 <body>
-  <audio src="/Sounds/audio0.wav" id="Audio0"></audio>
-  <audio src="/Sounds/audio1.wav" id="Audio1"></audio>
-  <audio src="/Sounds/audio2.wav" id="Audio2"></audio>
-  <audio src="/Sounds/audio3.wav" id="Audio3"></audio>
-  <audio src="/Sounds/audio4.wav" id="Audio4"></audio>
-  <audio src="/Sounds/audio5.wav" id="Audio5"></audio>
-  <audio src="/Sounds/audio6.wav" id="Audio6"></audio>
   <section id="title">
 
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar sticky-top bg-light fixed-top bg-transparent">
     <div class="container-fluid">
     <a class="navbar-brand" href="#"> SoundWave</a>
     </nav>
-
 
 <img class="title-image" >
 
@@ -37,18 +29,20 @@
 <form action=""class="search-bar">
   <input type="text" id="input-el" placeholder="Enter the order of matrix" />
   <button type="submit" id="input-btn" value="Create the Table" onclick="createMatrix();return false">Go!</button>
- 
 
 </form>
 
 
 </div>
   </section>
-  <table id="myTable"> 
-    
+  <table id="myTable">
+
 </table>
 
 <script src="main.js"></script>
+<video id="bg" autoplay muted loop>
+<video src="background video.mp4" type='video/mp4' >
+</video>
 
 </body>
 
